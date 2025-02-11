@@ -34,7 +34,7 @@ def find_min_coins(amount, coins=[50, 25, 10, 5, 2, 1]):
     
     return result
 
-# Тестування та порівняння ефективності
+# Тест
 amount = 113
 start_time = time.time()
 greedy_result = find_coins_greedy(amount)
